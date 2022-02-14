@@ -29,6 +29,7 @@ body {
     place-items: center;
     width: 75px;
     height: 75px;
+    right: 10px;
     margin: 6px;
     background: linear-gradient(100deg, #2f2f2f, #3f3f3f);
     box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15),
@@ -75,7 +76,6 @@ body {
     position: relative;
     grid-column: span 4;
     height: 70px;
-    left: 7.68px;
     width: calc(100% - 30px);
     border: none;
     outline: none;
