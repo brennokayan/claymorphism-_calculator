@@ -12,11 +12,11 @@ body {
     background: #333;
 }
 .container {
-    position: relative;
+    position: absolute;
     background: #333;
-    min-width: 180px;
-    min-height: 180px;
-    padding: 40px 30px 30px;
+    min-width: 300px;
+    min-height: 300px;
+    padding: 40px 5px 20px;
     border-radius: 20px;
     box-shadow: 25px 25px 75px rgba(0,0,0,0.25),
     10px 10px 70px rgba(0,0,0,0.25),
@@ -27,10 +27,9 @@ body {
     position: relative;
     display: grid;
     place-items: center;
-    width: 75px;
-    height: 75px;
-    right: 10px;
-    margin: 6px;
+    width: 55px;
+    height: 55px;
+    margin: 5px;
     background: linear-gradient(100deg, #2f2f2f, #3f3f3f);
     box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15),
     inset 0 -8px 8px rgba(0, 0, 0, 0.25),
@@ -71,12 +70,15 @@ body {
 .calculator{
     position: relative;
     display: grid;
+    left: 10px;
+    width: 100px;
 }
 .calculator .value{
     position: relative;
     grid-column: span 4;
     height: 70px;
-    width: calc(100% - 30px);
+    left: 5px;
+    width: calc(100% - 15px);
     border: none;
     outline: none;
     background: #a7af7c;
@@ -89,7 +91,7 @@ body {
 }
 .calculator .clear {
     grid-column: span 2;
-    width: 175px;
+    width: 130px;
     background: #f00;
 }
 .calculator .clear::before {
@@ -100,7 +102,7 @@ body {
 }
 .calculator .plus {
     grid-row: span 2;
-    height: 170px;
+    height: 120px;
     
 }
 .calculator .equals{
