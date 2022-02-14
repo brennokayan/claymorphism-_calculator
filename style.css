@@ -91,7 +91,7 @@ body {
 }
 .calculator .clear {
     grid-column: span 2;
-    width: 130px;
+    width: 120px;
     background: #f00;
 }
 .calculator .clear::before {
